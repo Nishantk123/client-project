@@ -49,7 +49,7 @@ export const updateUser = (userData, history) => dispatch => {
     })
   );
 };
-// update User 
+// create User 
 export const createUser = (userData, history) => dispatch => {
   axios
   .post('https://reqres.in/api/users', userData)
